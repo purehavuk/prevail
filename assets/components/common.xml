@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+version:        0.1
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+    <formatVersion>7</formatVersion>
+
+    <view name="system, gamecarousel">
+
+        <image name="details-line" extra="static">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.6156</pos>
+            <size>1 0.0025</size>
+            <path>./assets/images/common/empty.png</path>
+            <color>ff5555</color>
+            <zIndex>60</zIndex>
+        </image>
+
+        <image name="details-line2" extra="static">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.0315</pos>
+            <size>1 0.0025</size>
+            <path>./assets/images/common/empty.png</path>
+            <color>ff5555</color>
+            <zIndex>60</zIndex>
+        </image>
+        
+        <image name="details-bar" extra="static">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>1 1</size>
+            <path>./assets/images/common/details_bar.png</path>
+            <zIndex>55</zIndex>
+        </image>
+        
+        <image name="details-bg" extra="static">
+            <path>./assets/images/common/details_tint.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <zIndex>5</zIndex>
+
+        </image>
+            <image name="header-bg" extra="static">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 0.0315</size>
+            <path>./assets/images/common/empty.png</path>
+            <color>050505e5</color>
+            <zIndex>80</zIndex>
+        </image>
+
+    </view>
+
+    <view name="gamecarousel">
+
+        <!-- SYSTEM LOGO -->
+        
+        <image name="logo">
+            <path>./layouts/${system.theme}/logo_corner.png</path>
+            <maxSize>.2 .125</maxSize>
+            <origin>1 0</origin>
+            <pos>0.98 0.07</pos>
+            <color>ffffff</color>
+            <linearSmooth>true</linearSmooth>
+            <zIndex>90</zIndex>
+        </image>
+
+        <text name="logoText">
+            <visible>0</visible>
+        </text>
+        
+        <!-- DETAILS/INFO > IMAGES -->
+
+        <image name="info-bar-accent" extra="static">
+            <path>./assets/images/common/info_bar_accent.svg</path>
+            <origin>0.5 0.5</origin>
+            <size>1 1</size>
+            <pos>0.5 0.5</pos>
+            <color>ff5555</color>
+            <zIndex>80</zIndex>
+        </image>
+
+        <image name="info-bar-text" extra="static">
+            <path>./assets/images/common/info_bar_text.svg</path>
+            <origin>0.5 0.5</origin>
+            <size>1 1</size>
+            <pos>0.5 0.5</pos>
+            <color>ffffff</color>
+            <linearSmooth>false</linearSmooth>
+            <zIndex>75</zIndex>
+        </image>
+
+        <image name="info-bar-background" extra="static">
+            <path>./assets/images/common/info_bar_background.png</path>
+            <origin>0.5 0.5</origin>
+            <size>1 1</size>
+            <pos>0.5 0.5</pos>
+            <linearSmooth>false</linearSmooth>
+            <zIndex>70</zIndex>
+        </image>
+
+        <image name="md_thumbnail">
+            <origin>0.5 0.5</origin>
+            <pos>0.887 0.8025</pos>
+            <maxSize>0.2 0.275</maxSize>
+            <roundCorners>0.05</roundCorners>
+            <scaleOrigin>0 0</scaleOrigin>
+            <linearSmooth>true</linearSmooth>
+            <zIndex>25</zIndex>
+        </image>
+
+        <image name="md_favorite">
+            <path>./assets/images/common/favorite.svg</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.3125 0.5975</pos>
+            <maxSize>.025 .025</maxSize>      
+            <color>ff5555</color>
+            <zIndex>90</zIndex>
+        </image>
+
+        <!-- DETAILS > LABELS -->
+
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, d_lbl_gametime, md_publisher, md_lastplayed, md_playcount, md_gametime">
+            <origin>0 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <color>ffffff</color>
+            <zIndex>90</zIndex>
+        </text>
+
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, d_lbl_gametime, md_lastplayed, md_playcount, md_gametime">
+            <visible>false</visible> 
+         </text>
+
+        <text name="md_name">
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <fontSize>0.03</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 1</origin>
+            <pos>0.325 0.62</pos>
+            <color>ededed</color>
+            <singleLineScroll>true</singleLineScroll>
+            <zIndex>35</zIndex>
+        </text>
+
+        <text name="md_publisher">
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <size>.7 .05</size>
+            <origin>0 1</origin>
+            <pos>0.325 0.595</pos>
+            <color>55ffff</color>
+            <singleLineScroll>false</singleLineScroll>
+            <zIndex>30</zIndex>
+        </text>
+
+        <text name="md_genre">
+            <fontPath>./assets/fonts/Oswald-Medium.ttf</fontPath>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 0.5</origin>
+            <pos>0.3255 0.635</pos>
+            <color>ededed</color>
+            <zIndex>60</zIndex>
+        </text>
+
+        <text name="md_description">
+            <fontPath>./assets/fonts/Roboto-Light.ttf</fontPath>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>0</forceUppercase>
+            <alignment>left</alignment>
+            <padding>0</padding>
+            <origin>0 0</origin>
+            <pos>0.325 0.6535</pos>
+            <size>0.37 0.226</size>
+            <color>ededed</color>
+            <zIndex>20</zIndex>
+        </text>
+
+        <!-- DETAILS > GAME DETALS BOTTOM BAR -->
+
+        <image name="md_flag">
+            <origin>0.5 0.5</origin>
+            <pos>0.317 0.9275</pos>
+            <maxSize>0.02 0.02</maxSize>
+            <zIndex>85</zIndex>
+        </image>
+
+        <datetime name="md_releasedate">
+            <fontPath>./assets/fonts/Oswald-Medium.ttf</fontPath>
+            <format>%Y</format>
+            <fontSize>0.0225</fontSize>
+            <alignment>center</alignment>
+            <forceUppercase>1</forceUppercase>
+            <origin>0.5 0.5</origin>
+            <pos>0.38 0.9275</pos>
+            <color>ffffff</color>
+            <glowColor>00000099</glowColor>  
+            <zIndex>85</zIndex>
+        </datetime>
+
+        <text name="md_players">
+            <fontPath>./assets/fonts/Oswald-Medium.ttf</fontPath>
+            <fontSize>0.0225</fontSize>
+            <alignment>center</alignment>
+            <color>ffffff</color>
+            <glowColor>00000099</glowColor>
+            <glowSize>1</glowSize>
+            <origin>0.5 0.5</origin>
+            <pos>0.4420225 0.9277</pos>
+            <zIndex>85</zIndex>
+        </text>
+
+        <image name="md_manual">
+            <path>./assets/images/common/check.svg</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5045 0.9275</pos>
+            <maxSize>0.02 .02</maxSize>
+            <color>ffffff</color>
+            <linearSmooth>true</linearSmooth>
+            <zIndex>85</zIndex>
+        </image>
+        
+        <image name="md_savestate">
+            <path>./assets/images/common/check.svg</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.56725 0.9275</pos>
+            <maxSize>0.02 .02</maxSize>
+            <color>ffffff</color>
+            <linearSmooth>true</linearSmooth>
+            <zIndex>85</zIndex>
+        </image>
+
+        <rating name="md_rating">
+            <filledPath>./assets/images/common/star_filled.svg</filledPath>
+            <unfilledPath>./assets/images/common/star_empty.svg</unfilledPath>
+            <alignment>right</alignment>
+            <origin>0 0.5</origin>
+            <pos>0.615 0.92745</pos>
+            <size>0 0.03</size>
+            <color>ffff55</color>
+            <unfilledColor>00000000</unfilledColor>
+            <zIndex>85</zIndex>
+        </rating>
+
+    </view>
+
+</theme>

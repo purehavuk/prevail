@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1"
+   height="1"
+   viewBox="0 0 0.26458333 0.26458333"
+   version="1.1"
+   id="svg11020"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Prevail Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11022"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.587745"
+     inkscape:cx="37.291156"
+     inkscape:cy="41.348743"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs11017" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path5278"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:-1.32292px;fill:#ffffff;stroke:#000000;stroke-width:0.793795;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m -67.204084,-28.146059 v 56.450654 h 5.013818 V 5.9046775 h 13.310098 c 1.17831,0 2.140206,-0.3727054 2.885666,-1.1181766 C -45.225,4.0170105 -44.84024,3.0431103 -44.84024,1.8647701 V -24.142225 c 0,-1.17829 -0.38476,-2.140196 -1.154262,-2.885646 -0.74546,-0.745482 -1.707356,-1.118188 -2.885666,-1.118188 z m 118.695218,0.002 v 56.449162 h 16.03045 v -3.94371 h -11.57421 v -52.505432 z m -113.6814,4.435212 h 12.336198 V 1.4324713 h -12.336198 z m 88.99249,1.707366 -8.933518,50.204414 v 0.12927 h 4.296928 l 2.10263,-13.283046 9.291208,-0.02702 2.104132,13.310098 h 4.424668 L 31.19534,-22.001434 Z m -68.056444,0.12625 v 50.178884 h 4.45775 V -17.93174 h 11.44645 V 0.53647138 l -8.907978,-0.002 9.645926,27.76994362 h 4.71173 v -0.002 C -22.76462,20.265306 -25.638592,12.249586 -28.52425,4.2552849 l 2.756396,-0.007 c 4.031214,0 4.874064,-0.8962998 4.874064,-3.71980245 V -18.318481 c -0.03102,-2.552306 -0.811758,-3.55896 -3.55897,-3.55896 z m 24.17642,0.002 v 50.178884 h 16.4798045 v -3.94411 H -12.62157 V 15.013225 H -1.8484437 V 11.006389 H -12.62157 V -17.929869 H 1.2055487 l 8.0076968,46.362914 h 4.2007305 l 8.688532,-50.306644 H 17.80558 L 11.388006,15.175557 4.9493807,-21.873599 H 1.8548223 0.52470288 Z m 59.590338,0 v 50.178884 h 4.45772 V -21.87311 Z m -13.594158,7.88747 3.999332,24.989488 -8.027234,-0.008 z" />
+  </g>
+</svg>
