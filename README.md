@@ -1,5 +1,5 @@
 # Prevail (WIP)
-A clean, modern, Emulation Station theme for Batocera-ES with amazing animation
+A clean, modern, Emulation Station theme for Batocera-ES, loaded with animations!
 
 # Details
 
