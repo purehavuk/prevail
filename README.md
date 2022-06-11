@@ -1,7 +1,7 @@
-# Prevail (WIP)
-A clean, modern, Emulation Station theme for Batocera-ES, loaded with animations!
+# PREVAIL (WIP)
+A clean, modern, responsive theme for Batocera-ES.
 
-# Details
+# DETAILS
 
 Tested at 1080p with Batocera and RetroBat on PC and RPi4.
 
@@ -23,7 +23,7 @@ In order of goals:
   - 4:3 mode
   - Language options
 
-# Help
+# HOW YOU CAN HELP
 
 Need help testing on different resolutions and hardware configurations to optimize.
 
