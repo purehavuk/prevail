@@ -9,19 +9,21 @@ Currently the base features are in place as a starting point:
   - Graphics are completed for views
   - Animations are in place and running smooth
   - Support for only wheel
+  - 36 systems currently supported
 
 _Tested at 1080p with Batocera and RetroBat on PC and RPi4(8GB)._
 
 # TODO
 
 In order of goals:
+  - Complete remaining system artwork
   - Add more color schemes based on CGA color palette
   - Menu options needed to enable/disable features
   - Basic, detailed, and box views
   - Optimized image sizes
   - Optimize animations
   - Navigation sounds needed
-  - 4:3 mode
+  - 240p / 4:3 mode
   - Language options
 
 # HOW YOU CAN HELP
