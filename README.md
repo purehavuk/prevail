@@ -21,6 +21,10 @@ In order of goals:
   - Navigation sounds needed
   - 4:3 mode
 
+# Help
+
+Need help testing on RecallBox and any other Batocera-ES OS or program.
+
 #
 
 ![screenshot-2022 06 10-21h06 40](https://user-images.githubusercontent.com/68967441/173166707-e0feee64-a795-4a5a-82a5-adaa111cf1b5.png)
