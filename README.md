@@ -1,5 +1,6 @@
 # PREVAIL (WIP)
 A clean, modern, responsive theme for Batocera-ES.
+![image](https://user-images.githubusercontent.com/68967441/173186618-78956756-5491-4f2d-a5cf-36202de3c60f.png)
 
 # DETAILS
 
