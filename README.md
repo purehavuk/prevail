@@ -8,18 +8,20 @@ Tested at 1080p with Batocera and RetroBat on PC and RPi4.
 Currently the base features are in place as a starting point:
   - Background videos on system & game views
   - Graphics are completed for views
-  - Animations are in place
+  - Animations are in place and running smooth
   - Support for only wheel
 
 # TODO
 
 In order of goals:
-  - Color schemes other than red, but still based on CGA color palette
-  - Menu options need to be added
+  - Add more color schemes based on CGA color palette
+  - Menu options needed to enable/disable features
   - Basic, detailed, and box views
+  - Optimized image sizes
   - Optimize animations
   - Navigation sounds needed
   - 4:3 mode
+  - Language options
 
 # Help
 
