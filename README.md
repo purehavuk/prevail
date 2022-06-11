@@ -4,13 +4,13 @@ A clean, modern, responsive theme for Batocera-ES.
 
 # DETAILS
 
-Tested at 1080p with Batocera and RetroBat on PC and RPi4.
-
 Currently the base features are in place as a starting point:
   - Background videos on system & game views
   - Graphics are completed for views
   - Animations are in place and running smooth
   - Support for only wheel
+
+_Tested at 1080p with Batocera and RetroBat on PC and RPi4(8GB)._
 
 # TODO
 
