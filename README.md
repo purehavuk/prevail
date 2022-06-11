@@ -23,7 +23,7 @@ In order of goals:
 
 # Help
 
-Need help testing on RecallBox and any other Batocera-ES OS or program.
+Need help testing on different resolutions and hardware configurations to optimize.
 
 #
 
