@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+    <view name="basic">
+
+        <textlist name="gamelist">
+            <backgroundcolor>ff00ff</backgroundcolor>  
+            <selectorColor>ff00ffe5</selectorColor>
+            <selectorColor>00ff00</selectorColor>
+            <selectedColor>212121</selectedColor>
+            <primaryColor>a1a1a1</primaryColor>
+            <secondaryColor>F0F0F0</secondaryColor>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+            <pos>0.25 .125</pos>
+            <size>.5 .8</size>
+            <alignment>center</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+            <forceUppercase>0</forceUppercase>   
+            <selectorColor>ff00ff</selectorColor>
+            <scrollbarColor>969696e5</scrollbarColor>
+            <scrollbarCorner>0.5</scrollbarCorner>
+            <scrollbarSize>0.0025</scrollbarSize>            
+            <scrollbarAlignment>outerright</scrollbarAlignment>
+            <lines>15</lines>
+            <horizontalMargin>0.005</horizontalMargin>  
+        </textlist>
+
+    </view>
+
+</theme>
