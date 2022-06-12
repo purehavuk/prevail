@@ -25,22 +25,12 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
             <include>./assets/components/help.xml</include>
             <include>./assets/components/common.xml</include>
             <include>./assets/components/gameview_info.xml</include>
-            <include>./assets/components/crt.xml</include>
 
         <!-- OPTIONAL COMPONENTS -->
             <include>./assets/components/extra_info.xml</include>
 
-        <!-- COLOR SUBSETS -->
-
-        <!--
-        BASE COLORS
-        SILVER = aaaaaa
-        RED = ff5555
-        MAGENTA = ff55ff
-
-        ACCENT COLORS
-        RED = ff5555
-        CYAN = 55ffff
-        -->
+        <!-- SUBSETS -->
+        <include>./assets/components/crt.xml</include>
+        <include>./assets/buttons/gamepad.xml</include>
 
 </theme>
