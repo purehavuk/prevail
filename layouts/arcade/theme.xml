@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+    <view name="system, gamecarousel">
+                
+        <text name="system-info-systemname" extra="static">
+            <text>ARCADE</text>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <alignment>left</alignment>
+            <fontSize>0.03</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 1</origin>
+            <pos>0.1 .75</pos>
+            <color>ffffff</color>
+        </text>
+
+        <text name="system-info-manufacturer" extra="static">
+            <text>Various Manufacturer's</text>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <alignment>left</alignment>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 1</origin>
+            <pos>0.1 .72</pos>
+            <color>55ffff</color>
+        </text>
+    
+    </view>
+
+</theme>

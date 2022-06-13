@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+	<view name="menu">
+
+		<menuText name="menutitle">
+			<fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>ffffff</color>
+		</menuText>
+		
+		<menuText name="menufooter">
+			<fontPath>./assets/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<color>777799</color>
+		</menuText>
+
+		<menuText name="menutext">
+			<fontPath>./assets/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>ededed</color>
+			<separatorColor>0000000</separatorColor>
+			<selectorColor>ff00ff</selectorColor>
+			<selectorColorEnd>aa00aa0d</selectorColorEnd>
+			<selectedColor>ffffff</selectedColor>
+			<cornerSize>32 32</cornerSize>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./assets/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<color>000000</color>
+		</menuTextSmall>
+
+		<menuGroup name="menugroup">
+			<fontPath>./assets/fonts/Oswald-Medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>55ffff</color>
+			<separatorColor>ff5555</separatorColor>
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>1.75</lineSpacing>
+		</menuGroup>
+
+		<menuBackground name="menubg">
+			<path>./assets/images/menu/menu_bg.png</path>
+			<color>ffffffe5</color>
+			<scrollbarColor>777799</scrollbarColor>
+			<scrollbarCorner>0.5</scrollbarCorner>
+			<scrollbarSize>0.0025</scrollbarSize>
+			<scrollbarAlignment>innerright</scrollbarAlignment>
+		</menuBackground>
+
+		<menuIcons name="menuicons">
+   			<iconKodi>./assets/icons/Kodi.png</iconKodi>
+    		<iconSystem>./assets/icons/System.png</iconSystem>
+	    	<iconUpdates>./assets/icons/Updates.png</iconUpdates>
+    		<iconGames>./assets/icons/Games.png</iconGames>
+	    	<iconControllers>./assets/icons/Controllers.png</iconControllers>
+    		<iconUI>./assets/icons/UI.png</iconUI>
+    		<iconSound>./assets/icons/Sound.png</iconSound>
+	    	<iconNetwork>./assets/icons/network.svg</iconNetwork>
+    		<iconScraper>./assets/icons/Scraper.png</iconScraper>
+    		<iconAdvanced>./assets/icons/Advanced.png</iconAdvanced>
+    		<iconQuit>./assets/icons/Quit.png</iconQuit>
+    		<iconRestart>./assets/icons/Restart.png</iconRestart>
+    		<iconShutdown>./assets/icons/Shutdown.png</iconShutdown>
+    		<iconFastShutdown>./assets/icons/Fastshutdown.png</iconFastShutdown>
+    		<iconRetroachievements>./assets/icons/Contest.png</iconRetroachievements>
+    		<iconManual>./assets/icons/Manual.png</iconManual>
+    	</menuIcons>
+
+	</view>
+
+</theme>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+    <view name="system">
+
+        <image name="background" extra="static">
+            <path>./assets/images/system/system_background.png</path>
+            <tile>false</tile>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <linearSmooth>false</linearSmooth>
+            <zIndex>-100</zIndex>
+        </image>
+            
+        <text name="logoText">
+            <color>ffffffff</color>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <fontSize>0.0325</fontSize>
+            <glowColor>00000099</glowColor>
+            <glowSize>2</glowSize>
+        </text>
+
+        <image name="logo">
+            <path>./layouts/${system.theme}/logo.svg</path>
+        </image>
+
+        <carousel name="systemcarousel" extra="true">
+            <type>horizontal</type>
+            <logoAlignment>center</logoAlignment>
+            <logoSize>.25 .25</logoSize>
+            <logoScale>4</logoScale>
+            <maxLogoCount>1</maxLogoCount>
+            <linearSmooth>false</linearSmooth>
+            <color>00000000</color>
+            <systemInfoDelay>240</systemInfoDelay>
+            <zIndex>100</zIndex>
+        </carousel>       
+
+        <image name="redBlur" extra="true">
+            <path>./layouts/${system.theme}/logo.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ff5555</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>90</zIndex>
+        </image>
+
+        <image name="blueBlur" extra="true">
+            <path>./layouts/${system.theme}/logo.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>55ffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>85</zIndex>
+        </image>
+
+        <text name="systemInfo" extra="true">
+            <fontPath>./assets/fonts/Oswald-Medium.ttf</fontPath>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.634</pos>
+            <color>ededed</color>
+            <zIndex>99</zIndex>
+        </text>
+
+        <image name="info-year" extra="static">
+            <path>./layouts/${system.theme}/year.svg</path>
+            <origin>0 0</origin>
+            <pos>-0.03 -0.0055</pos>
+            <minSize>1.03 1.03</minSize>
+            <maxSize>1.03 1.03</maxSize>             
+            <color>aaaaaa0d</color>          
+            <zIndex>55</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-l" extra="static">
+            <path>./assets/images/system/prev-next-arrows_filled-l.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-r" extra="static">
+            <path>./assets/images/system/prev-next-arrows_filled-r.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-l2" extra="static">
+            <path>./assets/images/system/prev-next-arrows_l.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-r2" extra="static">
+            <path>./assets/images/system/prev-next-arrows_r.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-l3" extra="static">
+            <path>./assets/images/system/prev-next-arrows_l.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <image name="prev-next-arrows-r3" extra="static">
+            <path>./assets/images/system/prev-next-arrows_r.svg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>ffffff</color>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <zIndex>35</zIndex>
+        </image>
+
+        <video name="system-background-video" extra="static">
+			<path>{random}</path>
+            <color>ffffffcc</color>
+            <effect>none</effect>
+            <pos>0.5 0.5</pos>
+            <minSize>1.1 1</minSize>
+            <maxSize>1.1 5</maxSize>
+            <origin>0.5 0.5</origin>
+            <delay>0</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+            <linearSmooth>false</linearSmooth>
+			<zIndex>-99</zIndex>              
+        </video>
+
+        <text name="system-info-systemname" extra="static">
+            <text>${system.fullName}</text>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <alignment>left</alignment>
+            <fontSize>0.03</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 1</origin>
+            <pos>0.1 .75</pos>
+            <color>ffffff</color>
+        </text>
+
+        <text name="system-info-manufacturer" extra="static">
+            <text>${system.manufacturer}</text>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <alignment>left</alignment>
+            <fontSize>0.022</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <origin>0 1</origin>
+            <pos>0.1 .72</pos>
+            <color>55ffff</color>
+        </text>
+
+        <image name="system-info-separator" extra="static">
+            <path>./assets/images/system/system_info_separator.svg</path>
+            <tile>false</tile>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <color>ff5555</color>
+            <zIndex>75</zIndex>
+        </image>
+
+    </view>
+    
+</theme>

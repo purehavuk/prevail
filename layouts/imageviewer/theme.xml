@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo artwork by Eric Hettervik
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+    <view name="gamecarousel">
+
+        <image name="md_image" extra="true">
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <minSize>1</minSize>
+            <maxSize>1 1</maxSize>
+        </image>
+
+        <image name="vignette" extra="static">
+            <path>./assets/images/common/vignette.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>1 1</size>
+            <zIndex>60</zIndex>
+        </image>
+
+        <gamecarousel name="gamecarousel">
+            <defaultTransition>slide</defaultTransition>
+            <type>vertical</type>
+            <pos>0.0225 0</pos>
+            <size>0.5 1.215</size>
+            <logoScale>3.5</logoScale>
+            <logoSize>0.14 0.14</logoSize>
+            <logoAlignment>left</logoAlignment>
+            <maxLogoCount>5</maxLogoCount>
+            <imageSource>thumb</imageSource>
+            <zIndex>65</zIndex>
+        </gamecarousel>
+
+        <text name="gamecarouselLogoText">
+            <color>ffffff00</color>
+            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+            <fontSize>0.0325</fontSize>
+            <glowColor>00000099</glowColor>
+            <glowSize>2</glowSize>
+            <lineSpacing>1.0</lineSpacing>
+        </text>
+
+        <image name="background, info-bar-accent, info-bar-text, info-bar-background, md_favorite, md_flag, md_manual, md_savestate, md_thumbnail, background-grille, background-rgb, color-band, details-line, details-bar, details-bg">
+            <visible>false</visible>
+        </image>
+
+        <text name="md_name, md_publisher, md_genre, md_description, md_players">
+            <visible>false</visible> 
+        </text>
+
+        <datetime name="md_releasedate">
+            <visible>false</visible>
+        </datetime>
+
+        <video name="md_video">
+            <visible>false</visible>
+        </video>
+
+        <control name="md_image">
+            
+            <storyboard event="activateNext">
+                <animation property="offsetY" from="1" to="0" duration="480" mode="EaseInCubic"/>
+            </storyboard>
+            
+            <storyboard event="activatePrev">
+                <animation property="offsetY" from="-1" to="0" duration="480" mode="EaseInCubic"/>
+            </storyboard>
+            
+        </control>
+
+    </view>
+
+    <view name="system">
+
+        <image name="extra-info-labels, extra-info-separator">
+            <visible>false</visible>
+        </image>
+
+        <text name="system-info-fav, system-info-gp, system-info-lp">
+            <visible>false</visible> 
+        </text>
+
+        <image name="screenshot" extra="static">
+            <path>{random}</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>1 1</size>
+            <maxSize>1 1</maxSize>
+            <delay>0</delay>
+            <zIndex>-90</zIndex>
+        </image>
+
+    </view>
+
+</theme>

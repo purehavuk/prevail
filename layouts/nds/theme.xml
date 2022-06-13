@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo artwork by Eric Hettervik
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>    
+    
+    <view name="gamecarousel">
+
+        <video name="md_video" extra="static">
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <minSize>1 5</minSize>
+            <maxSize>1 2.75</maxSize>
+            <delay>0</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+            <linearSmooth>true</linearSmooth>
+            <loops>10</loops>
+            <zIndex>-90</zIndex>
+        </video>
+
+    </view>
+
+    <view name="system">
+
+        <video name="system-background-video" extra="static">
+			<path>{random}</path>
+            <color>ffffffcc</color>
+            <effect>none</effect>
+            <pos>0.5 0</pos>
+            <maxSize>1 2.75</maxSize>
+            <origin>0.5 0</origin>
+            <delay>0</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+            <linearSmooth>false</linearSmooth>
+			<zIndex>-99</zIndex>              
+        </video>
+
+    </view>    
+
+</theme>

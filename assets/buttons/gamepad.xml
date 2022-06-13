@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>    
+
+    <view name="system, gamecarousel">
+
+        <helpsystem name="help" extra="true">
+            <iconA>./assets/buttons/gamepad/button-east.svg</iconA>
+            <iconB>./assets/buttons/gamepad/button-south.svg</iconB>
+            <iconX>./assets/buttons/gamepad/button-north.svg</iconX>
+            <iconY>./assets/buttons/gamepad/button-west.svg</iconY>
+        </helpsystem>
+
+    </view>
+
+</theme>

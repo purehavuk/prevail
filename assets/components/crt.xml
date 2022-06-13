@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Prevail
+author:         T. Higgins (purehavuk)
+email:          purehavukgaming@gmail.com	
+website:        purehavuk.com
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+    <view name="system, gamecarousel">
+                
+        <image name="background-grille" extra="static">
+            <linearSmooth>true</linearSmooth>
+            <path>./assets/images/crt/scanlines.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <color>050505</color>
+            <zIndex>-30</zIndex>
+        </image>
+
+        <image name="background-rgb" extra="static">
+            <linearSmooth>true</linearSmooth>
+            <path>./assets/images/crt/scanlines_rgb.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <zIndex>-35</zIndex>
+        </image>
+
+        <image name="color-band" extra="static">
+            <pos>0.5 0</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>      
+            <path>./assets/images/crt/color-band.png</path>
+            <linearSmooth>true</linearSmooth>
+            <origin>.5 .5</origin>
+            <color>ffffff</color>
+            <zIndex>-40</zIndex>
+        </image>
+    
+    </view>
+
+</theme>
