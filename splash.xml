@@ -21,8 +21,8 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
 
 		<image name="background">
 			<path>./assets/images/splash/background.png</path>
-            <minSize>1 1</minSize>
-            <zIndex>1</zIndex>
+			<minSize>1 1</minSize>
+			<zIndex>1</zIndex>
 		</image>
 
 		<image name="progressbar">
@@ -34,7 +34,7 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
 			<roundCorners>0</roundCorners>
 		</image>
 		
-        <image name="progressbar:active">
+		<image name="progressbar:active">
 			<tile>true</tile>
 			<color>ff5555</color>
 			<colorEnd>ff5555</colorEnd>
