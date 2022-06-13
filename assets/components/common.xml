@@ -56,6 +56,27 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
             <size>1 .081</size>
             <zIndex>90</zIndex>
         </image>
+        
+        <image name="background-grille" extra="static">
+            <linearSmooth>true</linearSmooth>
+            <path>./assets/images/crt/scanlines.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <color>050505</color>
+            <zIndex>-30</zIndex>
+        </image>
+
+        <image name="background-rgb" extra="static">
+            <linearSmooth>true</linearSmooth>
+            <path>./assets/images/crt/scanlines_rgb.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <minSize>1 1</minSize>
+            <maxSize>1 1</maxSize>
+            <zIndex>-35</zIndex>
+        </image>
 
     </view>
 

@@ -30,10 +30,10 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
             <include>./assets/components/common.xml</include>
 
         <!-- OPTIONAL COMPONENTS -->
-            <include>./assets/components/system_stats.xml</include>
 
         <!-- SUBSETS -->
-            <include>./assets/components/crt.xml</include>
+            <include>./assets/subsets/crt.xml</include>
             <include>./assets/buttons/gamepad.xml</include>
+            <include>./assets/subsets/system_stats.xml</include>
 
 </theme>
