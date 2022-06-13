@@ -12,7 +12,6 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
 
 <formatVersion>7</formatVersion>
 
-
     <view name="splash">
 		
         <splash name="splash">
