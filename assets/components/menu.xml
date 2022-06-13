@@ -64,22 +64,22 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese
 
 		<menuIcons name="menuicons">
    			<iconKodi>./assets/icons/Kodi.png</iconKodi>
-    		<iconSystem>./assets/icons/System.png</iconSystem>
-	    	<iconUpdates>./assets/icons/Updates.png</iconUpdates>
-    		<iconGames>./assets/icons/Games.png</iconGames>
-	    	<iconControllers>./assets/icons/Controllers.png</iconControllers>
-    		<iconUI>./assets/icons/UI.png</iconUI>
-    		<iconSound>./assets/icons/Sound.png</iconSound>
-	    	<iconNetwork>./assets/icons/network.svg</iconNetwork>
-    		<iconScraper>./assets/icons/Scraper.png</iconScraper>
-    		<iconAdvanced>./assets/icons/Advanced.png</iconAdvanced>
-    		<iconQuit>./assets/icons/Quit.png</iconQuit>
-    		<iconRestart>./assets/icons/Restart.png</iconRestart>
-    		<iconShutdown>./assets/icons/Shutdown.png</iconShutdown>
-    		<iconFastShutdown>./assets/icons/Fastshutdown.png</iconFastShutdown>
-    		<iconRetroachievements>./assets/icons/Contest.png</iconRetroachievements>
-    		<iconManual>./assets/icons/Manual.png</iconManual>
-    	</menuIcons>
+    			<iconSystem>./assets/icons/System.png</iconSystem>
+	    		<iconUpdates>./assets/icons/Updates.png</iconUpdates>
+    			<iconGames>./assets/icons/Games.png</iconGames>
+	    		<iconControllers>./assets/icons/Controllers.png</iconControllers>
+    			<iconUI>./assets/icons/UI.png</iconUI>
+    			<iconSound>./assets/icons/Sound.png</iconSound>
+	    		<iconNetwork>./assets/icons/network.svg</iconNetwork>
+    			<iconScraper>./assets/icons/Scraper.png</iconScraper>
+    			<iconAdvanced>./assets/icons/Advanced.png</iconAdvanced>
+    			<iconQuit>./assets/icons/Quit.png</iconQuit>
+    			<iconRestart>./assets/icons/Restart.png</iconRestart>
+    			<iconShutdown>./assets/icons/Shutdown.png</iconShutdown>
+    			<iconFastShutdown>./assets/icons/Fastshutdown.png</iconFastShutdown>
+    			<iconRetroachievements>./assets/icons/Contest.png</iconRetroachievements>
+    			<iconManual>./assets/icons/Manual.png</iconManual>
+    		</menuIcons>
 
 	</view>
 
