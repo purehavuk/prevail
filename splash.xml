@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Prevail
+version:        0.1
 author:         T. Higgins (purehavuk)
 email:          purehavukgaming@gmail.com	
 website:        purehavuk.com
@@ -12,9 +13,9 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
 
 <formatVersion>7</formatVersion>
 
-    <view name="splash">
+	<view name="splash">
 		
-        <splash name="splash">
+		<splash name="splash">
 			<backgroundColor>000000</backgroundColor>
 		</splash>
 
@@ -40,21 +41,21 @@ based on:       "Carbon" by Eric Hettervik, "Art Book" by Anthony Caccese / Logo
 			<zIndex>20</zIndex>
 		</image>
 
-        <image name="splashlogo" extra="true">
+		<image name="splashlogo" extra="true">
 			<path>./assets/images/splash/logo.svg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 		</image>
 
-        <text name="label">
-            <fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
-            <fontSize>0.025</fontSize>
-            <forceUppercase>1</forceUppercase>
+		<text name="label">
+			<fontPath>./assets/fonts/Oswald-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
 			<color>FFFFFFFF</color>
 			<alignment>center</alignment>\
-            <origin>0.5 0.5</origin>
+			<origin>0.5 0.5</origin>
 			<pos>0.5 0.95</pos>
-            <zIndex>100</zIndex>
+			<zIndex>100</zIndex>
 		</text>
 
 	</view>
