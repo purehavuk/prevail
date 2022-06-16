@@ -23,7 +23,7 @@ In order of goals:
   - Optimized image sizes
   - Optimize animations
   - Navigation sounds needed
-  - 240p / 4:3 mode
+  - 480p/4:3 mode
   - Language options
 
 # HOW YOU CAN HELP
